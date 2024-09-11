@@ -47,7 +47,7 @@ export const MovieSelector: React.FC = () => {
             return;
         }
 
-        const API_KEY = '8541354351a67d3b2fb1c8b0fafd3b51';
+        const API_KEY = '';
         const decadeStart = `${selectedDecade}-01-01`;
         const decadeEnd = `${parseInt(selectedDecade) + 9}-12-31`;
 
@@ -79,7 +79,7 @@ export const MovieSelector: React.FC = () => {
 
     return (
         <SelectorContainer>
-            <HexflixLogo>FearFix</HexflixLogo>
+            <HexflixLogo>FearFlix</HexflixLogo>
 
             <StyledSelectContainer>
                 <InputLabel>Genre</InputLabel>
